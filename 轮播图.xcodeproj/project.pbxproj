@@ -15,6 +15,15 @@
 		0F54AB7D1F18710F00E3AE2C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F54AB7B1F18710F00E3AE2C /* LaunchScreen.storyboard */; };
 		0F54AB881F18711000E3AE2C /* ___Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F54AB871F18711000E3AE2C /* ___Tests.m */; };
 		0F54AB931F18711000E3AE2C /* ___UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F54AB921F18711000E3AE2C /* ___UITests.m */; };
+		0F54ABA61F18715B00E3AE2C /* angryBirds_00.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0F54ABA01F18715B00E3AE2C /* angryBirds_00.jpg */; };
+		0F54ABA71F18715B00E3AE2C /* angryBirds_01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0F54ABA11F18715B00E3AE2C /* angryBirds_01.jpg */; };
+		0F54ABA81F18715B00E3AE2C /* angryBirds_02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0F54ABA21F18715B00E3AE2C /* angryBirds_02.jpg */; };
+		0F54ABA91F18715B00E3AE2C /* angryBirds_03.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0F54ABA31F18715B00E3AE2C /* angryBirds_03.jpg */; };
+		0F54ABAA1F18715B00E3AE2C /* angryBirds_04.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0F54ABA41F18715B00E3AE2C /* angryBirds_04.jpg */; };
+		0F54ABAB1F18715B00E3AE2C /* imageInfos.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0F54ABA51F18715B00E3AE2C /* imageInfos.plist */; };
+		0F54ABB11F1871C300E3AE2C /* GLD_CarouselModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F54ABAE1F1871C300E3AE2C /* GLD_CarouselModel.m */; };
+		0F54ABB21F1871C300E3AE2C /* GLD_ImageCarouselView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F54ABB01F1871C300E3AE2C /* GLD_ImageCarouselView.m */; };
+		0F54ABB51F1872D700E3AE2C /* GLD_CarouselCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F54ABB41F1872D700E3AE2C /* GLD_CarouselCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +60,18 @@
 		0F54AB8E1F18711000E3AE2C /* 轮播图UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "轮播图UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F54AB921F18711000E3AE2C /* ___UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___UITests.m"; sourceTree = "<group>"; };
 		0F54AB941F18711000E3AE2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F54ABA01F18715B00E3AE2C /* angryBirds_00.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = angryBirds_00.jpg; sourceTree = "<group>"; };
+		0F54ABA11F18715B00E3AE2C /* angryBirds_01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = angryBirds_01.jpg; sourceTree = "<group>"; };
+		0F54ABA21F18715B00E3AE2C /* angryBirds_02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = angryBirds_02.jpg; sourceTree = "<group>"; };
+		0F54ABA31F18715B00E3AE2C /* angryBirds_03.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = angryBirds_03.jpg; sourceTree = "<group>"; };
+		0F54ABA41F18715B00E3AE2C /* angryBirds_04.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = angryBirds_04.jpg; sourceTree = "<group>"; };
+		0F54ABA51F18715B00E3AE2C /* imageInfos.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = imageInfos.plist; sourceTree = "<group>"; };
+		0F54ABAD1F1871C300E3AE2C /* GLD_CarouselModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLD_CarouselModel.h; sourceTree = "<group>"; };
+		0F54ABAE1F1871C300E3AE2C /* GLD_CarouselModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLD_CarouselModel.m; sourceTree = "<group>"; };
+		0F54ABAF1F1871C300E3AE2C /* GLD_ImageCarouselView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLD_ImageCarouselView.h; sourceTree = "<group>"; };
+		0F54ABB01F1871C300E3AE2C /* GLD_ImageCarouselView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLD_ImageCarouselView.m; sourceTree = "<group>"; };
+		0F54ABB31F1872D700E3AE2C /* GLD_CarouselCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLD_CarouselCell.h; sourceTree = "<group>"; };
+		0F54ABB41F1872D700E3AE2C /* GLD_CarouselCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLD_CarouselCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +122,7 @@
 		0F54AB6C1F18710F00E3AE2C /* 轮播图 */ = {
 			isa = PBXGroup;
 			children = (
+				0F54ABAC1F18718400E3AE2C /* GLDCarousel */,
 				0F54AB701F18710F00E3AE2C /* AppDelegate.h */,
 				0F54AB711F18710F00E3AE2C /* AppDelegate.m */,
 				0F54AB731F18710F00E3AE2C /* ViewController.h */,
@@ -117,6 +139,12 @@
 		0F54AB6D1F18710F00E3AE2C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				0F54ABA01F18715B00E3AE2C /* angryBirds_00.jpg */,
+				0F54ABA11F18715B00E3AE2C /* angryBirds_01.jpg */,
+				0F54ABA21F18715B00E3AE2C /* angryBirds_02.jpg */,
+				0F54ABA31F18715B00E3AE2C /* angryBirds_03.jpg */,
+				0F54ABA41F18715B00E3AE2C /* angryBirds_04.jpg */,
+				0F54ABA51F18715B00E3AE2C /* imageInfos.plist */,
 				0F54AB6E1F18710F00E3AE2C /* main.m */,
 			);
 			name = "Supporting Files";
@@ -138,6 +166,19 @@
 				0F54AB941F18711000E3AE2C /* Info.plist */,
 			);
 			path = "轮播图UITests";
+			sourceTree = "<group>";
+		};
+		0F54ABAC1F18718400E3AE2C /* GLDCarousel */ = {
+			isa = PBXGroup;
+			children = (
+				0F54ABAD1F1871C300E3AE2C /* GLD_CarouselModel.h */,
+				0F54ABAE1F1871C300E3AE2C /* GLD_CarouselModel.m */,
+				0F54ABB31F1872D700E3AE2C /* GLD_CarouselCell.h */,
+				0F54ABB41F1872D700E3AE2C /* GLD_CarouselCell.m */,
+				0F54ABAF1F1871C300E3AE2C /* GLD_ImageCarouselView.h */,
+				0F54ABB01F1871C300E3AE2C /* GLD_ImageCarouselView.m */,
+			);
+			name = GLDCarousel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,6 +248,7 @@
 				TargetAttributes = {
 					0F54AB691F18710F00E3AE2C = {
 						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 48WYF6MTZ2;
 						ProvisioningStyle = Automatic;
 					};
 					0F54AB821F18711000E3AE2C = {
@@ -246,9 +288,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F54ABAA1F18715B00E3AE2C /* angryBirds_04.jpg in Resources */,
+				0F54ABA91F18715B00E3AE2C /* angryBirds_03.jpg in Resources */,
+				0F54ABA61F18715B00E3AE2C /* angryBirds_00.jpg in Resources */,
 				0F54AB7D1F18710F00E3AE2C /* LaunchScreen.storyboard in Resources */,
+				0F54ABA81F18715B00E3AE2C /* angryBirds_02.jpg in Resources */,
 				0F54AB7A1F18710F00E3AE2C /* Assets.xcassets in Resources */,
+				0F54ABAB1F18715B00E3AE2C /* imageInfos.plist in Resources */,
 				0F54AB781F18710F00E3AE2C /* Main.storyboard in Resources */,
+				0F54ABA71F18715B00E3AE2C /* angryBirds_01.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,8 +322,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				0F54AB751F18710F00E3AE2C /* ViewController.m in Sources */,
+				0F54ABB51F1872D700E3AE2C /* GLD_CarouselCell.m in Sources */,
 				0F54AB721F18710F00E3AE2C /* AppDelegate.m in Sources */,
 				0F54AB6F1F18710F00E3AE2C /* main.m in Sources */,
+				0F54ABB11F1871C300E3AE2C /* GLD_CarouselModel.m in Sources */,
+				0F54ABB21F1871C300E3AE2C /* GLD_ImageCarouselView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -371,7 +422,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -414,7 +465,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -426,6 +477,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 48WYF6MTZ2;
 				INFOPLIST_FILE = "轮播图/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "guolide.---";
@@ -437,6 +489,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 48WYF6MTZ2;
 				INFOPLIST_FILE = "轮播图/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "guolide.---";

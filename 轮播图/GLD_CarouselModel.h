@@ -10,7 +10,9 @@
 
 @interface GLD_CarouselModel : NSObject
 
-@property (nonatomic, copy)NSString *imgStr;
+@property (nonatomic, copy)NSString *imageName;
 @property (nonatomic, assign)NSInteger showTime;
 
+
++ (instancetype)instanceCarouselModelWith:(NSDictionary *)dict;
 @end

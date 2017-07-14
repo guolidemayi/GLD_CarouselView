@@ -7,7 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "GLD_CarouselModel.h"
 
-@interface GLD_CarouselCell : UIView
+@interface GLD_CarouselCellContain : UIView
 
+@property (nonatomic, strong)UIImageView *containerView;
+@property (nonatomic, strong)GLD_CarouselModel *model;
 @end
+
+
+

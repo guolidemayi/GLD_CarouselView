@@ -8,14 +8,34 @@
 
 #import "GLD_CarouselCell.h"
 
-@implementation GLD_CarouselCell
 
-/*
-// Only override drawRect: if you perform custom drawing.
-// An empty implementation adversely affects performance during animation.
-- (void)drawRect:(CGRect)rect {
-    // Drawing code
+@implementation GLD_CarouselCellContain
+
+- (instancetype)initWithFrame:(CGRect)frame
+{
+    self = [super initWithFrame:frame];
+    if (self) {
+        [self addSubview:self.containerView];
+    }
+    return self;
 }
-*/
+
+
+- (UIImageView *)containerView{
+    if (_containerView == nil) {
+        _containerView = [[UIImageView alloc] initWithFrame:CGRectMake(2, 0, self.bounds.size.width - 4, self.bounds.size.height)];
+        _containerView.layer.cornerRadius = 5;
+        _containerView.userInteractionEnabled = YES;
+        _containerView.layer.masksToBounds = YES;
+    }
+    return _containerView;
+}
+- (void)setModel:(GLD_CarouselModel *)model{
+    _model = nil;
+    _model = model;
+    _containerView.image = [UIImage imageNamed:model.imageName];
+}
 
 @end
+
+
