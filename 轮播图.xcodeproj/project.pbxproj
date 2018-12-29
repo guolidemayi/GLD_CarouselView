@@ -24,6 +24,7 @@
 		0F54ABB11F1871C300E3AE2C /* GLD_CarouselModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F54ABAE1F1871C300E3AE2C /* GLD_CarouselModel.m */; };
 		0F54ABB21F1871C300E3AE2C /* GLD_ImageCarouselView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F54ABB01F1871C300E3AE2C /* GLD_ImageCarouselView.m */; };
 		0F54ABB51F1872D700E3AE2C /* GLD_CarouselCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F54ABB41F1872D700E3AE2C /* GLD_CarouselCell.m */; };
+		C975ADB721D74FD0005B4D0C /* GLD_RuningScroollView.m in Sources */ = {isa = PBXBuildFile; fileRef = C975ADB621D74FCF005B4D0C /* GLD_RuningScroollView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +73,8 @@
 		0F54ABB01F1871C300E3AE2C /* GLD_ImageCarouselView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLD_ImageCarouselView.m; sourceTree = "<group>"; };
 		0F54ABB31F1872D700E3AE2C /* GLD_CarouselCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLD_CarouselCell.h; sourceTree = "<group>"; };
 		0F54ABB41F1872D700E3AE2C /* GLD_CarouselCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLD_CarouselCell.m; sourceTree = "<group>"; };
+		C975ADB521D74FCF005B4D0C /* GLD_RuningScroollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLD_RuningScroollView.h; sourceTree = "<group>"; };
+		C975ADB621D74FCF005B4D0C /* GLD_RuningScroollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLD_RuningScroollView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +125,7 @@
 		0F54AB6C1F18710F00E3AE2C /* 轮播图 */ = {
 			isa = PBXGroup;
 			children = (
+				C975ADB421D74F81005B4D0C /* GLD_AutoScrollLabel */,
 				0F54ABAC1F18718400E3AE2C /* GLDCarousel */,
 				0F54AB701F18710F00E3AE2C /* AppDelegate.h */,
 				0F54AB711F18710F00E3AE2C /* AppDelegate.m */,
@@ -179,6 +183,15 @@
 				0F54ABB01F1871C300E3AE2C /* GLD_ImageCarouselView.m */,
 			);
 			name = GLDCarousel;
+			sourceTree = "<group>";
+		};
+		C975ADB421D74F81005B4D0C /* GLD_AutoScrollLabel */ = {
+			isa = PBXGroup;
+			children = (
+				C975ADB521D74FCF005B4D0C /* GLD_RuningScroollView.h */,
+				C975ADB621D74FCF005B4D0C /* GLD_RuningScroollView.m */,
+			);
+			name = GLD_AutoScrollLabel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -321,6 +334,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C975ADB721D74FD0005B4D0C /* GLD_RuningScroollView.m in Sources */,
 				0F54AB751F18710F00E3AE2C /* ViewController.m in Sources */,
 				0F54ABB51F1872D700E3AE2C /* GLD_CarouselCell.m in Sources */,
 				0F54AB721F18710F00E3AE2C /* AppDelegate.m in Sources */,
@@ -562,6 +576,7 @@
 				0F54AB991F18711000E3AE2C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0F54AB9A1F18711000E3AE2C /* Build configuration list for PBXNativeTarget "轮播图Tests" */ = {
 			isa = XCConfigurationList;
@@ -570,6 +585,7 @@
 				0F54AB9C1F18711000E3AE2C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0F54AB9D1F18711000E3AE2C /* Build configuration list for PBXNativeTarget "轮播图UITests" */ = {
 			isa = XCConfigurationList;
@@ -578,6 +594,7 @@
 				0F54AB9F1F18711000E3AE2C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

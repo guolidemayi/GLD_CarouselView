@@ -10,6 +10,7 @@
 #import "GLD_ImageCarouselView.h"
 #import "GLD_CarouselCell.h"
 #import "GLD_CarouselModel.h"
+#import "GLD_RuningScroollView.h"
 
 @interface ViewController ()<GLD_ImageCarouselViewDelegate,GLD_ImageCarouselViewDataDelegate>
 
@@ -19,6 +20,9 @@
 @property (nonatomic, assign) NSUInteger pageHeight;
 @property (nonatomic, strong) UILabel *labelTwo;
 
+
+//轮播跑马灯
+@property (nonatomic, strong)GLD_RuningScroollView *runingView;
 @end
 
 @implementation ViewController
@@ -35,8 +39,20 @@
     _labelTwo.text = @"点击了第 X 页";
     _labelTwo.font = [UIFont systemFontOfSize:16];
     [self.view addSubview:_labelTwo];
+    
+    //跑马灯
+    [self.view addSubview:self.runingView];
+    self.runingView.scrollText = @"我要开跑了，需要我扛的小旗要加到我后边呦";
 }
 
+- (void)viewWillAppear:(BOOL)animated{
+    [super viewWillAppear:animated];
+    [self.runingView startScroll];
+}
+
+- (void)dealloc{
+    [self.runingView stopScroll];
+}
 - (CGSize)sizeForPageInCarouselView:(GLD_ImageCarouselView *)carouselView {
     return CGSizeMake(self.pageWidth, self.pageHeight);
 }
@@ -78,11 +94,12 @@
     return _cellInfoArray;
 }
 
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (GLD_RuningScroollView *)runingView{
+    if (!_runingView) {
+        _runingView = [[GLD_RuningScroollView alloc]initWithFrame:CGRectMake(0, 600, self.view.bounds.size.width, 25)];
+        _runingView.backgroundColor = [UIColor redColor];
+    }
+    return _runingView;
 }
-
 
 @end
